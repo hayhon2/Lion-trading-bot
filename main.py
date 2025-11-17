@@ -9,7 +9,7 @@ bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start(msg):
-    bot.reply_to(msg, "⚡ مرحباً! البوت يعمل بنجاح.\nأهلاً بك يا LION.")
+    bot.reply_to(msg, "⚡ qمرحباً! البوت يعمل بنجاح.\nأهلاً بك يا LION.")
 
 @bot.message_handler(func=lambda m: True)
 def echo(msg):
